@@ -1,3 +1,4 @@
+//using encapsulation protect variables
 class Student {
 
     private int id;
@@ -9,23 +10,28 @@ class Student {
     }
 
     public int getId(){
+
         return id;
     }
     public void setName(String name){
+
         this.name=name;
     }
     public String getName(){
         return name;
     }
     public void setAge(int age){
+
         this.age=age;
     }
     public int getAge(){
+
         return age;
     }
 }
 class Demo{
     public static void main(String args[]){
+
         Student s=new Student();
         s.id=1;
         s.name="asiri";
