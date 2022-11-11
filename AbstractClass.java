@@ -14,3 +14,8 @@ abstract class Car extends Vehicle{
 //nthnm sub class eka overide krla sub class eke method eka athult body ekak denna.
 // ethkot abstract metod ekak newine.e nisa eka abstract clss ekk newei
 
+abstract class Car extends Vehicle{
+    void park(){
+        //body
+    }
+}
